@@ -1,0 +1,129 @@
+.session-name>p{
+	font-family: 'Patua One', cursive;
+	margin-bottom: 0px;
+	margin-top: 2px;
+	font-size: 25px;
+}
+
+.container{
+	display: flex;
+	height: 100vh;
+}
+
+
+
+.fa-lock{
+	margin-top: 10px;
+}
+
+.fa-slack-hash{
+	font-size: 20px;
+	margin-top: 10px;
+	margin-right: 5px;
+}
+
+.col-left{
+	display: flex;
+	
+}
+
+.col1{
+	width: 30%;
+	background-color:rgb(7, 7, 7);
+}
+
+.col2{
+	width: 70%;
+	background-color:rgb(15, 15, 15);
+}
+
+.col-right{
+	flex-grow: 1;
+	display: flex;
+	flex-direction: column;
+}
+
+.session-chat{
+	flex-grow: 1;
+	margin-top: 15px; 
+}
+
+.message{
+	align-items: center;
+	display: flex;
+	padding: 10px;
+	font-family: 'Patua One', cursive;
+}
+
+.message b{
+	margin-right: 5px;
+}
+
+.session-name{
+	display: flex;
+	height: 35px;
+	border-bottom: 0.1px solid grey;
+	margin-left: 10px;
+}
+.col1>img{
+ border: 3px solid white;
+ width: 50%;
+ display: block;
+ margin: 16px auto;
+ padding: 5px;
+ border-radius: 5px;
+}
+.rectangle{
+	width: 75px;
+	height: 55px;
+	background-color: rgb(25, 25, 25);
+	margin: auto;
+	border-radius: 5px;
+}
+
+.rectangle>p{
+	text-align: center;
+	font-family: 'Patua One', cursive;
+	color: white;
+	font-size: 25px;
+	padding: 10px;
+}
+.liste{
+	color: white;
+	font-family: 'Patua One', cursive;
+
+}
+
+h3{
+	margin-left: 15px;
+}
+ul{
+	list-style-type: none;
+}
+h1{
+	margin-left: 15px;
+}
+h2{
+	margin-left: 15px; 
+}
+
+.contact{
+	margin-top: 8px;
+}
+.col-12 img{
+	border-radius: 5px;
+}
+
+.avatar>img{
+	border-radius: 20%;
+	width: 75px;
+	margin-right: 15px;
+}
+
+#story{
+	width: 1445px;
+	height:45px;
+	flex-grow:1;
+	margin-left: 10px;
+	font-family: 'Patua One', cursive;
+}
